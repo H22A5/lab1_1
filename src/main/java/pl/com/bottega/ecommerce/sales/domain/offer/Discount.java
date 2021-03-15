@@ -15,16 +15,8 @@ public class Discount {
         return discountCause;
     }
 
-    public void setDiscountCause(String discountCause) {
-        this.discountCause = discountCause;
-    }
-
     public BigDecimal getDiscount() {
         return discount;
-    }
-
-    public void setDiscount(BigDecimal discount) {
-        this.discount = discount;
     }
 
     @Override

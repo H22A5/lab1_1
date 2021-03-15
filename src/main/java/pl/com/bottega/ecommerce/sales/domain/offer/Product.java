@@ -37,26 +37,6 @@ public class Product {
         return snapshotDate;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrice(Money cost) {
-        this.cost = cost;
-    }
-
-    public void setSnapshotDate(Date snapshotDate) {
-        this.snapshotDate = snapshotDate;
-    }
-
     @Override
     public int hashCode() {
         final int prime = 31;
